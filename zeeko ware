@@ -800,6 +800,8 @@ Delay.Position = 0
 end)
 
  ExtrasSection:NewButton("ANTI-LOCK (Z)", "Anti Lock Toggle Z(Z - On - Off (toggle) )", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zuwdaq/anti-lock-v2/main/anti%20lock%20v2"))()
+end)
 
 ExtrasSection:NewButton("ESP", "lets you see everyone (cant turn off)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kkkksdadsadasf/213213/main/esp"))()
